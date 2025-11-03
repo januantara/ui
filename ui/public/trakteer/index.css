@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap");
+
+:root {
+  --trakteer-default: #3cd278;
+  --trakteer-default-border: #2b9555;
+  --trakteer-default-color: #f8f8f8;
+
+  --trakteer-outline: #f8f8f8;
+  --trakteer-outline-border: #888888;
+  --trakteer-outline-color: #888888;
+
+  --trakteer-destructive: #be1e2c;
+  --trakteer-destructive-border: #721119;
+  --trakteer-destructive-color: #f8f8f8;
+
+  --trakteer-dark: #242525;
+  --trakteer-dark-border: #101010;
+  --trakteer-dark-color: #fefefe;
+}
+
+[data-theme="trakteer"] {
+  margin: 0;
+  padding: 0;
+}

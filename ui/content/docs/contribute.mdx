@@ -1,0 +1,42 @@
+---
+title: Contribute
+description: How to contribute to this UI library
+---
+
+## Folder structure
+
+<Files>
+  <Folder name="src" defaultOpen>
+    <Folder name="commands">
+      <File name="add.ts" />
+      <File name="init.ts" />
+    </Folder>
+    <File name="cli.ts" />
+  </Folder>
+  <Folder name="templates">
+    <File name="button.txt" />
+  </Folder>
+</Files>
+
+## Clone
+
+**Clone** the actual repo at our respective repository. We are using `npm` for the runtime manager.
+If you are following the global install the command is `fydemy-ui` depending on the `package.json`.
+
+```json
+"bin": {
+    "fydemy-ui": "dist/cli.js"
+},
+```
+
+```bash
+git clone https://github.com/fydemy-ui.git
+cd ui && npm i --legacy-peer-deps # to install the defined library versions
+```
+
+## Run
+
+```bash
+npm i -g . # global
+npm run dev # local
+```
